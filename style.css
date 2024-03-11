@@ -2,14 +2,17 @@ h1{
     background-color: black;
     color: white;
     text-align: center;
+    border-radius: 10px;
 }
 body{
     background-color: rgb(100, 95, 95);
     margin: 24px;
     padding-right: 16px;
+    font-size: 20px;
 }
-H2{
+h2{
     font-size: large;
+    font-size: 10;
 }
 .bag{
     text-align: center;
@@ -25,4 +28,8 @@ H2{
 }
 .bt{
     margin-bottom: 0;
+}
+.par{
+    color: rgb(78, 49, 10);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
