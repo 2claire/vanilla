@@ -8,25 +8,41 @@ body{
     background-color: rgb(100, 95, 95);
     margin: 24px;
     padding-right: 16px;
-    font-size: 20px;
+    font-size: 50px;
 }
-h2{
+.world{
     font-size: large;
-    font-size: 10;
+    font-size: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-ser
+    ;
 }
 .bag{
+    background-image: url("media/cuisine.jpg") ;
     text-align: center;
     background-color: rgb(239, 246, 248);
+    color: rgb(136, 22, 165);
+    font-size: 35px;
 }
 .bag2{
-    color: white;
+    background-image: url("media/back.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgb(136, 12, 219);
     text-align: center;
     background-color: rgb(110, 113, 114);
+    font-size: 35px;
+    
+}
+
+.bag2 h2:hover{
+    color: palevioletred;
+    font-size: 65px;
+    font-weight:600;
 }
 .btn{
     margin-top: 0;
 }
-.bt{
+.bt{ 
     margin-bottom: 0;
 }
 .par{
