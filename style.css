@@ -23,6 +23,12 @@ body{
     color: rgb(136, 22, 165);
     font-size: 35px;
 }
+.bag :hover{
+    color: #000;
+    font-size: 65px;
+    font-weight: 300px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
 .bag2{
     background-image: url("media/back.png");
     background-repeat: no-repeat;
@@ -34,10 +40,11 @@ body{
     
 }
 
-.bag2 h2:hover{
+.bag2 :hover{
     color: palevioletred;
     font-size: 65px;
-    font-weight:600;
+    font-weight:300PX;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .btn{
     margin-top: 0;
